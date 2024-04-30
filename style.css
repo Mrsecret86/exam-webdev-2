@@ -1,0 +1,89 @@
+header{
+    font-family: sans-serif;
+    color: rgb(33, 45, 64);
+}
+
+.web-title{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 150;
+}
+
+.web-header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 35px;
+    background-color: white;
+    box-shadow: 0px 0px 50px gainsboro;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(33, 45, 64);
+    margin: 0 14px;
+    font-size: 17px;
+}
+
+.jumbotron{
+    position: relative;
+    top: 70px;
+    right: 0;
+    left: 0;
+    height: 450px;
+    background-image: url(assets/jumbotron-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.jumbotron-text h1, h2{
+    font-family: cursive;
+}
+
+.jumbotron-text h1{
+    font-size: 35px;
+}
+
+.jumbotron-text h2{
+    border-bottom: 8px solid #2A6F9D;
+    padding-bottom: 15px;
+}
+
+.jumbotron-text span{
+    color: #2A6F9D;
+}
+
+.jumbotron-text p{
+    font-family: sans-serif;
+}
+
+.jumbotron-container{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+.jumbotron-img{
+    margin-right: 150px;
+}
+
+
+aside{
+    max-width: 15%;
+    max-height: 360px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 20px slategray;
+    position: relative;
+    top: 80px;
+    left: 20px;
+    border: 2px solid darkcyan;
+    border-radius: 8px;
+    z-index: -1;
+}
+
+.profile-img
